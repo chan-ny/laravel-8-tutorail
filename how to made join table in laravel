@@ -1,0 +1,9 @@
+this one 
+  1/ import libary #use Illuminate\Support\Facades\DB;
+  2/ DB::table('pyament')
+     ->join('customer','payment.customer_ID','=', 'customer.cus_ID')
+     ->select('customer.cus_Id','...')
+     ->get()
+     
+   
+  
